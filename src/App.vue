@@ -2,7 +2,7 @@
   <div class="flex h-screen overflow-hidden bg-white text-gray-800 font-sans">
     <nav class="w-[250px] bg-[#1a1a1a] text-white flex flex-col p-4 shrink-0 h-full overflow-y-auto">
       <div class="text-2xl font-bold mb-8 text-white">Design Styles</div>
-      <ul>
+      <ul class="space-y-8">
         <li v-for="item in navigationItems" :key="item.route">
           <router-link :to="item.route"
             class="text-gray-400 no-underline py-3 px-4 rounded mb-2 transition-colors hover:bg-[#333] hover:text-white">
