@@ -18,6 +18,11 @@ const routes = [
   { path: '/nature', component: () => import('../components/styles/Nature.vue') },
   { path: '/magazine', component: () => import('../components/styles/Magazine.vue') },
   { path: '/hand-drawn', component: () => import('../components/styles/HandDrawn.vue') },
+  { path: '/claymorphism', component: () => import('../components/styles/Claymorphism.vue') },
+  { path: '/memphis', component: () => import('../components/styles/Memphis.vue') },
+  { path: '/terminal', component: () => import('../components/styles/Terminal.vue') },
+  { path: '/gothic', component: () => import('../components/styles/Gothic.vue') },
+  { path: '/pop-art', component: () => import('../components/styles/PopArt.vue') },
 ]
 
 const router = createRouter({
