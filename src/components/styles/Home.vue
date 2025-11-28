@@ -58,6 +58,8 @@
       <router-link to="/pop-art"
         class="flex items-center justify-center h-[150px] rounded-lg no-underline text-xl font-black transition-transform hover:scale-105 bg-[#ffeb3b] text-black border-[6px] border-black shadow-[8px_8px_0_black]">POP
         ART!</router-link>
+      <router-link to="/neubrutalism"
+        class="flex items-center justify-center h-[150px] rounded-lg no-underline text-xl font-bold transition-transform hover:scale-105 bg-[#ff90e8] text-black border-[4px] border-black shadow-[6px_6px_0_black] font-sans">Neubrutalism</router-link>
 
     </div>
   </div>

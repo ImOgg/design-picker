@@ -23,6 +23,7 @@ const routes = [
   { path: '/terminal', component: () => import('../components/styles/Terminal.vue') },
   { path: '/gothic', component: () => import('../components/styles/Gothic.vue') },
   { path: '/pop-art', component: () => import('../components/styles/PopArt.vue') },
+  { path: '/neubrutalism', component: () => import('../components/styles/Neubrutalism.vue') },
 ]
 
 const router = createRouter({
