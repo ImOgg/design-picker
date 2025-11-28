@@ -42,6 +42,17 @@
       <router-link to="/hand-drawn"
         class="text-gray-400 no-underline py-3 px-4 rounded mb-2 transition-colors hover:bg-[#333] hover:text-white">Hand
         Drawn</router-link>
+      <router-link to="/claymorphism"
+        class="text-gray-400 no-underline py-3 px-4 rounded mb-2 transition-colors hover:bg-[#333] hover:text-white">Claymorphism</router-link>
+      <router-link to="/memphis"
+        class="text-gray-400 no-underline py-3 px-4 rounded mb-2 transition-colors hover:bg-[#333] hover:text-white">Memphis</router-link>
+      <router-link to="/terminal"
+        class="text-gray-400 no-underline py-3 px-4 rounded mb-2 transition-colors hover:bg-[#333] hover:text-white">Terminal</router-link>
+      <router-link to="/gothic"
+        class="text-gray-400 no-underline py-3 px-4 rounded mb-2 transition-colors hover:bg-[#333] hover:text-white">Gothic</router-link>
+      <router-link to="/pop-art"
+        class="text-gray-400 no-underline py-3 px-4 rounded mb-2 transition-colors hover:bg-[#333] hover:text-white">Pop
+        Art</router-link>
     </nav>
     <main class="flex-1 h-full overflow-y-auto">
       <router-view></router-view>
