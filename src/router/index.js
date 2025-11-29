@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/styles/Home.vue'
-
+import About from '../components/styles/About.vue'
 const routes = [
   { path: '/', component: Home },
+  { path: '/about', component: About },
   { path: '/y2k', component: () => import('../components/styles/Y2K.vue') },
   { path: '/bento', component: () => import('../components/styles/BentoBox.vue') },
   { path: '/pixel', component: () => import('../components/styles/PixelArt.vue') },

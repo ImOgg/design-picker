@@ -31,6 +31,7 @@ import { computed, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 const navigationItems = [
   { title: '首頁', icon: '', route: '/' },
+  { title: '關於', icon: '', route: '/about' },
   { title: 'Y2K', icon: '', route: '/y2k' },
   { title: 'Bento Box', icon: '', route: '/bento' },
   { title: 'Pixel Art', icon: '', route: '/pixel' },
