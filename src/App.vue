@@ -51,7 +51,8 @@ const navigationItems = [
   { title: 'Terminal', icon: '', route: '/terminal' },
   { title: 'Gothic', icon: '', route: '/gothic' },
   { title: 'Pop Art', icon: '', route: '/pop-art' },
-  { title: 'Neubrutalism', icon: '', route: '/neubrutalism' }
+  { title: 'Neubrutalism', icon: '', route: '/neubrutalism' },
+  { title: 'Glassmorphism', icon: '', route: '/glassmorphism' }
 ];
 
 </script>
